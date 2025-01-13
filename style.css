@@ -1,0 +1,80 @@
+.breadcrumb {
+    padding: 8px 15px;
+    margin-bottom: 20px;
+    list-style: none;
+    background-color: #ecdddd;
+    border-radius: 4px;
+}
+
+.breadcrumb a {
+    color: #333;
+    text-decoration: none;
+}
+
+.carousel-image {
+    height: 500px; /* Set the desired height */
+    width: 100%;   /* Set the desired width */
+    object-fit: cover; /* Ensure the image covers the entire area */
+
+}
+
+
+.container-fluid p, 
+.container-fluid h6 {
+    font-size: 14px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.container-fluid img {
+    display: block;
+    margin: 0 auto;
+}
+
+.sim {
+    font-size: 16px;
+    color: #333; /* Dark text color */
+    line-height: 1.6;
+    margin-top: 8px;
+}
+
+.sim li {
+    margin-bottom: 8px;
+    list-style: number; /* Changes bullet points to square */
+    line-height: 1.8; /* Increases space between lines */
+   
+}   
+/* footer class */
+.containers {
+    background-color: hwb(0 92% 5%);
+    padding: 20px;
+}
+.row {
+    margin-top: 10px;
+}
+
+.newsletter-form {
+    text-align: center; /* Center-align the text inside the form */
+}
+
+.newsletter-form h5,
+.newsletter-form p {
+    margin-bottom: 15px; /* Add consistent spacing between elements */
+}
+
+.newsletter-form .btn-block {
+    flex: 1; /* Make the button take the full width available */
+    max-width: 100%; /* Ensure the button doesn't exceed the column's width */
+}
+
+.d-flex .form-control {
+    flex: 1; /* Ensure the input takes equal space with the button in row layout */
+    min-width: 70%; /* Minimum width for better appearance on small screens */
+}
+
+main {
+    margin-bottom: 20px;
+}
+
+
+
